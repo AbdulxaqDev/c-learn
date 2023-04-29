@@ -13,10 +13,10 @@ int main()
     hasUpper = hasLower = hasDigit = hasSpecialChar = isLongEnough = 0;
     passwordLen = 13;
 
-    printf("what is your username?\n");
+    printf("\nwhat is your username?\n");
     scanf(" %s", user);
 
-    printf("Please create a password: ");
+    printf("\nPlease create a password: ");
     scanf(" %s", password);
 
     // The loop goes through each character of the password and
@@ -63,8 +63,8 @@ int main()
     else
     {
         printf("\nYou shoudl consider a new password %s\n\n", user);
-        printf("Make shure you include upper and lower case\n\n");
-        printf("letters, digits and special charackters\n\n");
+        printf("Make shure you include uppercase and lowercase\n\n");
+        printf("letters, digits and special charackters.\n\n");
     }
 
     return (0);
