@@ -63,3 +63,5 @@ s
 ```
 
 You can play it.
+
+This game print some outputs in different colors. You can get more information about colors in c output here [Adding Color to Your Output From C](https://www.theurbanpenguin.com/4184-2/)
