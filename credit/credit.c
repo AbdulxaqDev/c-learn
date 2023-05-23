@@ -20,6 +20,7 @@ int main()
         if (idSearch == custID[ctr])
         {
             found = 1;
+            /* this breakes the loop */
             break;
         }
     }
