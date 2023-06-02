@@ -1,9 +1,13 @@
+#include <stdio.h>
 
 
-int increment()
+int main()
 {
-    static int count = 0;
-    count = count + 1;
+    int nums[6] = {1, 33, 53, 6, 363, 9};
+    int *p = &nums[2];
+    int *b = &nums[3];
 
-    return count;
+    printf("%d\n", p > b);
+
+    return 0;
 }

@@ -1,25 +1,40 @@
 #include <stdio.h>
-#include <stdint.h>
-#include <math.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
 
-uint32_t reverseBits(uint32_t n)
+char *gcdOfStrings(char *str1, char *str2)
 {
-    double num, i;
+    int st1Len = strlen(str1);
+    int st2Len = strlen(str2);
+    int lStr = st1Len > st2Len ? st1Len : st2Len;
+    int sStr = st1Len < st2Len ? st1Len : st2Len;
+    int i, j = 0;
+    char x[1000] = {0};
+    char *pX = x;
 
-    for (i = 0; i < 32; i++)
+    for (i = 0; i < lStr; i++)
     {
-        if(n % 2) num += pow(2, 31 - i);
-        n /= 2;
+        for (j = 0; j < sStr; j++)
+        {
+            if (str1[i] = str2[j])
+            {
+                x[i] = str2[j];
+            }
+        }
     }
 
-    return num;
+    printf("%d", 'A'/'A');
+
+    return pX;
 }
 
 int main()
 {
-    printf("\n%u\n", reverseBits(4294967293));
+
+    char str1[] = "ABCABC", str2[] = "ABC";
+
+    printf("%s", gcdOfStrings(str1, str2));
+
     return 0;
 }
-
-// 1011111111111111111111111111111
-// 10111111111111111111111111111111
