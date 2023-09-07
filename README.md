@@ -2,6 +2,8 @@
 
 Simple password verifier. It cheks password that include lower and upper case letters, digits, special characters and pass word length.
 
+[see the code](https://github.com/AbdulxaqDev/c-learn/blob/main/passwordValidation.c)
+
 ## How to run it
 
 Use C and C++ Compilers [gcc](https://www.freecodecamp.org/news/what-is-a-compiler-in-c/) to run c code.
