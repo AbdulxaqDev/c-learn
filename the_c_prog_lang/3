@@ -4,11 +4,12 @@
 int main()
 {
 
-    long nc = 0;
+    long nc;
 
-    while(getchar() != EOF)
+    nc = 0;
+    while(getchar() != EOF){
         ++nc;
-
+    }
     printf("%ld\n", nc);
 
     return 0;
