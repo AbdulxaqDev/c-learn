@@ -4,7 +4,7 @@ This application generates words and letters histogram in illustrative way.
 
 It gives the number of words with the same length and number of a letter's repetition.
 
-***If you want you can watch the walk through video of this project [here](https://github.com/AbdulxaqDev/c-learn/blob/main/the_c_prog_lang/projects/char_word_histogram.c).***
+***If you want you can watch the walk through video of this project [here](https://youtu.be/iJPT7CF-SWU).***
 
 [see the code](https://github.com/AbdulxaqDev/c-learn/blob/main/the_c_prog_lang/projects/char_word_histogram.c)
 
@@ -49,7 +49,7 @@ Here is the similar result for letters:
 Here we see can the letters repetition on above histogram. For example, "H" letter came once and "e" letter came four times in sample text.
 
 
-If you want you can watch the walk through video of this project [here](https://github.com/AbdulxaqDev/c-learn/blob/main/the_c_prog_lang/projects/char_word_histogram.c).
+If you want you can watch the walk through video of this project [here](https://youtu.be/iJPT7CF-SWU).
 
 
 
